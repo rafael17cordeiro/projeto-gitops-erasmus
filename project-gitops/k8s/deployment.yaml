@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: web-server
-        image: nginx:alpine
+        image: rafael17cordeiro/cloud-project-web:v1
         ports:
         - containerPort: 80
